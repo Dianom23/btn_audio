@@ -1,0 +1,71 @@
+#container_audio {
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+#up,
+#down {
+    display: flex;
+}
+
+.mus {
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #303030;
+    color: #fff;
+    display: block;
+}
+
+.rewind_minus,
+.rewind_plus {
+    width: 90px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 25px;
+}
+
+.volume_minus,
+.volume_plus {
+    width: 190px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewind_minus,
+.rewind_plus {
+    margin: 0 15px;
+}
+
+.volume_minus,
+.volume_plus {
+    margin: 7.5px 3.75px;
+}
+
+.rewind_minus:active,
+.rewind_plus:active,
+.volume_minus:active,
+.volume_plus:active,
+.mus:active {
+    opacity: 0.8;
+}
